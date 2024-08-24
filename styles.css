@@ -68,6 +68,7 @@
     width: 80%;
     left: 12%;
     top: 82%;
+    gap: 2%;
 }
 
 .btn-encriptar {
@@ -83,6 +84,7 @@
     line-height: 19px;
     text-align: center;
     color: #fff;
+    cursor: pointer;
 }
 
 .btn-desencriptar {
@@ -103,6 +105,7 @@
     line-height: 19px;
     text-align: center;
     color: #0a3871;
+    cursor: pointer;
 }
 
 .btn-desencriptar:hover, .btn-encriptar:hover {
@@ -199,7 +202,7 @@
     .btn-desencriptar {
     width: 48%;
     border-radius: 16px;
-    }   
+    }  
     .btn-encriptar:hover, .btn-desencriptar:hover {
     margin: 0.3%;
     width: 47.5%;
